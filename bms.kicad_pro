@@ -85,14 +85,6 @@
           "USB-C DRC"
         ],
         [
-          "silk_edge_clearance|135475000|39600000|ee8134b9-450b-47c7-8d50-b9c9acb5d448|c883d415-dbdf-47e1-99e5-3a3d5912481d",
-          "ESP MODULE"
-        ],
-        [
-          "silk_edge_clearance|148975000|39600000|ee8134b9-450b-47c7-8d50-b9c9acb5d448|6d4b9cb3-d3ce-45e8-b054-47895ba6c5be",
-          "ESP MODULE"
-        ],
-        [
           "silk_over_copper|134789000|41665000|48ad1ad1-ee6a-4fa5-91f1-d8b658b29224|00000000-0000-0000-0000-000000000000",
           "ESP MODULE"
         ]
