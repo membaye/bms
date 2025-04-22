@@ -63,32 +63,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        [
-          "footprint_type_mismatch|170500000|47250000|25fbd26f-e191-4e0f-b537-29482479b056|00000000-0000-0000-0000-000000000000",
-          "Thermal Via"
-        ],
-        [
-          "hole_clearance|138700000|91990000|92ac721f-ae16-4ed7-8ba2-48cbc2efe7d6|e21d28f0-3f49-4c23-801d-6ab09071f7fc",
-          "USB-C DRC"
-        ],
-        [
-          "hole_clearance|138700000|91990000|b6331454-db86-4158-8773-26bf7bda94cd|e21d28f0-3f49-4c23-801d-6ab09071f7fc",
-          "USB-C DRC"
-        ],
-        [
-          "hole_clearance|144800000|91990000|d65411b0-e56e-498e-889b-07b1890ef8cd|1d2cb0b8-5a02-468f-b140-cb92f8dacd8d",
-          "USB-C DRC"
-        ],
-        [
-          "hole_clearance|144800000|91990000|dc1b7c53-50ec-4395-a65a-b4b31fc61b35|1d2cb0b8-5a02-468f-b140-cb92f8dacd8d",
-          "USB-C DRC"
-        ],
-        [
-          "silk_over_copper|134789000|41665000|48ad1ad1-ee6a-4fa5-91f1-d8b658b29224|00000000-0000-0000-0000-000000000000",
-          "ESP MODULE"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -177,7 +152,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],

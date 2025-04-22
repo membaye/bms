@@ -6327,7 +6327,7 @@
 		)
 		(uuid "0755b405-92ab-4b4c-a952-bd9a9b2e3a83")
 	)
-	(label "PPHV"
+	(label "OROUT"
 		(at 118.11 44.45 0)
 		(effects
 			(font
@@ -6468,7 +6468,7 @@
 		)
 		(uuid "736a239a-a864-4155-b410-1e4be6fb59d8")
 	)
-	(label "PPHV"
+	(label "OROUT"
 		(at 184.15 35.56 90)
 		(effects
 			(font
@@ -6499,7 +6499,7 @@
 		)
 		(uuid "7c9f2f54-0d93-48d7-b064-950662df271b")
 	)
-	(label "PPHV"
+	(label "OROUT"
 		(at 243.84 147.32 0)
 		(effects
 			(font
@@ -6590,7 +6590,7 @@
 		)
 		(uuid "ac6cac2d-7459-4765-bbc3-971b8c338e3b")
 	)
-	(label "PPHV"
+	(label "OROUT"
 		(at 243.84 110.49 0)
 		(effects
 			(font
@@ -6640,17 +6640,6 @@
 			(justify right bottom)
 		)
 		(uuid "d6a212d1-607c-4f1c-b615-6d4640afc0bf")
-	)
-	(label "PPHV"
-		(at 147.32 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "de51dd36-586c-4c93-97f0-1e81a87d59f2")
 	)
 	(label "DRV_SUP"
 		(at 170.18 50.8 180)
@@ -16938,7 +16927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+USBV"
+		(property "Value" "+PPHV"
 			(at 179.07 129.794 0)
 			(effects
 				(font
@@ -16980,6 +16969,71 @@
 			(project "bms"
 				(path "/25bab91c-a0ce-4d39-aca4-3409cb6c9cc9/9fe912d2-630d-4776-83ae-5a5308a5b203"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd2bd4c4-2b60-46ee-a923-6941b53c39a7")
+		(property "Reference" "#PWR0114"
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+PPHV"
+			(at 147.32 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13520770-aa5e-422d-bb50-31a2eab38f33")
+		)
+		(instances
+			(project "bms"
+				(path "/25bab91c-a0ce-4d39-aca4-3409cb6c9cc9/9fe912d2-630d-4776-83ae-5a5308a5b203"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
