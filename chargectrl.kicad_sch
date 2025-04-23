@@ -3888,6 +3888,10 @@
 		(uuid "1127e54c-3766-459a-b73a-1159abdb62f2")
 	)
 	(no_connect
+		(at 116.84 123.19)
+		(uuid "20abc2db-656e-4f0d-904f-9d7c70ed05b1")
+	)
+	(no_connect
 		(at 238.76 140.97)
 		(uuid "4367c8fd-fedc-4210-98e6-ba876ba44177")
 	)
@@ -5369,16 +5373,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 123.19) (xy 116.84 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "960cefa7-8d17-4ba2-b249-5a9de9e4afed")
-	)
-	(wire
-		(pts
 			(xy 113.03 39.37) (xy 113.03 41.91)
 		)
 		(stroke
@@ -6803,17 +6797,6 @@
 		)
 		(uuid "d5d8ceb8-5ecf-41b2-ae2a-2206b6e4e0f0")
 	)
-	(hierarchical_label "DBG_ACC"
-		(shape input)
-		(at 124.46 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f822f30d-1fd0-46bd-b727-b1e72dfaa285")
-	)
 	(symbol
 		(lib_name "C_Small_1")
 		(lib_id "Device:C_Small")
@@ -7667,7 +7650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7uF"
 			(at 139.446 68.834 90)
 			(effects
 				(font
@@ -7882,7 +7865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7uF"
 			(at 125.476 109.728 90)
 			(effects
 				(font
@@ -8231,7 +8214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7uF"
 			(at 248.666 150.876 0)
 			(effects
 				(font
@@ -10447,7 +10430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µF"
+		(property "Value" "22uF"
 			(at 147.066 108.966 0)
 			(effects
 				(font
@@ -12430,7 +12413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µF"
+		(property "Value" "22uF"
 			(at 139.446 108.966 0)
 			(effects
 				(font
@@ -12985,7 +12968,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7uF"
 			(at 54.61 108.966 0)
 			(effects
 				(font
@@ -13134,7 +13117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 131.572 108.966 0)
 			(effects
 				(font
@@ -13611,7 +13594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7uF"
 			(at 248.666 114.046 0)
 			(effects
 				(font
@@ -13904,7 +13887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 71.882 134.874 90)
 			(effects
 				(font
@@ -14118,7 +14101,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7uF"
 			(at 139.446 61.214 90)
 			(effects
 				(font
@@ -15551,7 +15534,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80µF"
+		(property "Value" "80uF"
 			(at 184.658 41.402 90)
 			(effects
 				(font
@@ -15966,7 +15949,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 64.262 129.794 90)
 			(effects
 				(font
@@ -16486,7 +16469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80µF"
+		(property "Value" "80uF"
 			(at 207.518 41.402 90)
 			(effects
 				(font
